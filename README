@@ -1,0 +1,32 @@
+Doom RPG Map Viewer
+Written by Richard Walmsley. <richwalm@gmail.com>
+
+Thanks to Simon "Fraggle" Howard for the specs. (http://www.soulsphere.org/random/doom-rpg-bnf.txt)
+
+WWW: http://walmsley.gen.nz/
+
+Description
+-----------
+
+Simple utility used to view Doom RPG map files. Primary written to learn
+simple Win32 programs and how BSPs work.
+
+It'll only work on maps from version 1.0.92 and possibly later versions.
+
+It will only load the following data;
+* Nodes
+* Linedefs
+* Things
+* Blockmap
+
+All other data within the file is ignored.
+
+Usage
+-----
+
+For the J2ME version, simply extract the BSP files from the game's JAR file. Other platforms aren't supported. With it loaded, you can then toggle what's shown using the menu or the shortcut keys listed upon it.
+
+License
+-------
+
+Distributed under the MIT License. See the included LICENSE for details.
